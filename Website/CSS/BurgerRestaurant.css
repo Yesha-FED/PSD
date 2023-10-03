@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 90%;
+}
+.container{
+    background-image: url(../Images/Burger.jpg);
+}
+.nav{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none ;
+}
+.col > h1{
+    margin: 100px;
+    color: aliceblue;
+    font-size: 60px;
+    padding: 20px;
+    line-height: 90px;
+}
+.col > p{
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: 40px;
+}
+.col{
+    width: 50%;
+}
