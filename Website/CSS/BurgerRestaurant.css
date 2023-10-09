@@ -307,6 +307,8 @@
 .contain-3{
     background-color: rgb(250, 213, 213);
     padding: 100px;
+    position: relative;
+    z-index: 1;
 }
 .para-6{
     text-align: center;
@@ -319,7 +321,7 @@
 }
 .row3{
     display: flex;
-    margin-top: 70px;
+    margin-top: -73px;
     align-items: center;
     justify-content: space-evenly;
     gap: 145px;
@@ -357,6 +359,27 @@
 }
 .y1{
     position: absolute;
-    right: 260px;
-    
+    right: 395px;
+    top: 22px;
+}
+.y2{
+    position: absolute;
+    left: 334px;
+    top: 113px;
+}
+.y3{
+    position: absolute;
+    z-index: -1;
+    right: 113px;
+    top: 605px;
+}
+.y4{
+    position: absolute;
+    left: 58px;
+    top: 202px;
+}
+.y5{
+    position: absolute;
+    right: 0px;
+    top: 222px;
 }
