@@ -360,7 +360,7 @@
 }
 .y1{
     position: absolute;
-    right: 395px;
+    right: 267px;
     top: 22px;
 }
 .y2{
@@ -417,16 +417,19 @@
 .contain-4{
     background-color: #f6eedf;
     color: #f64b3c;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
-    z-index: -1;
+    height: 721px;
+    /* z-index: -1; */
+    margin: 0 auto;
 }
 .para-8{
     font-size: 62px;
     font-weight: 700;
     font-family: "Archivo";
     text-align: center;
+    padding: 100px;
 }
 .para-8 > p{
     text-align: center;
@@ -461,10 +464,105 @@ form{
     padding-left: 20px;
     border-radius: 30px 0px 0px 30px;
 }
-.contain-4 > img{
-    position: absolute;
-}
 .v1{
-    right: 70px;
-    top: 130px;
+    position: absolute;
+    right: 25px;
+    top: 27px;
+}
+.v2{
+    position: absolute;
+    top: 19px;
+    left: 167px;
+}
+.v3{
+    position: absolute;
+    left: 228px;
+    bottom: 22px;
+}
+.v4{
+    position: absolute;
+    right: 268px;
+    top: 553px;
+}
+.v5{
+    position: absolute;
+    bottom: 221px;
+    right: 91px;
+}
+.v6{
+    position: absolute;
+    top: 276px;
+    left: 86px;
+}
+.l2{
+    position: absolute;
+    right: 666px;
+    top: 580px;
+}
+.l4{
+    position: absolute;
+    top: 19px;
+    left: 706px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 540px;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.con-1{
+    width: 40%;
+}
+.con-1 > h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.con-1 > p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.con-2{
+    display: flex;
+    justify-content: space-around;
+}
+.con-3{
+    width: 33.33%;
+    padding-left: 50px;
+}
+.con-3 > h1{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.con-3 > p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 576px){
+    .container{
+        width: 100%;
+    }
+    .n{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+            
+}
+
+@media (max-width: 1200px) {
+
 }
