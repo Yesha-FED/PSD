@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: antiquewhite;
+    height: 1100px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+    background-color: #12202f;
+    color: #6bb99c;
+    margin-top: 20px;
+    position: absolute;
+    width: 90%;
+    top: 20px;
+}
+.home{
+    display: flex;
+    font-size: 17px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+.home p{
+    margin: 0px 44px;
+}
+.logo{
+    font-size: 23px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+.signup a{
+    font-size: 17px;
+    line-height: 42px;
+    color: #6bb99c;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+.col-40{
+    padding-top: 15%;
+    width: 40%;
+}
+.col-40 h1{
+    font-size: 54px;
+    color: #12202f;
+    font-weight: 900;
+}
+.para-1{
+    font-size: 19px;
+    line-height: 60px;
+    color: #12202f;
+    font-weight: 400;
+}
+.para-2{
+    font-size: 15px;
+    line-height: 21px;
+    color: #12202f;
+    text-align: left;
+    font-weight: 600;
+}
+.bu{
+    display: flex;
+    padding-top: 60px;
+}
+.bu button{
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #ebe3cd;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 28px;
+    border: none;
+    width: 100px;
+    background-color: #df581e;
+}
+.bu p{
+    font-size: 18px;
+    line-height: 33px;
+    color: #12202f;
+    text-align: center;
+    font-weight: 700;
+    text-align: center;
+}
+.para-3{
+    margin-top: 366px;
+    font-size: 21px;
+    line-height: 33px;
+    color: #12202f;
+    font-weight: 700;
+}
+.box{
+    background-color: white;
+    border: 1px solid white;
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    position: absolute;
+    top: 950px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.d1{
+    padding: 6px 64px;
+    font-size: 21px;
+    line-height: 43px;
+    color: #12202f;
+    font-weight: 700;
+    text-align: center;
+}
+.box-2{
+    background-color: #ebe3cd;
+    border: 1px solid black;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+}
+.para-4{
+    margin: 22px auto;
+}
+.bu-2{
+    width: 117px;
+    height: 60px;
+    background-color: lightgreen;
+    margin-top: 42px;
+    border-radius: 11%;
+    margin-left: 63px;
+    margin-right: 62px;
+}
+.s1{
+    position: absolute;
+    top: 9%;
+    left: 72%;
+}
+.s2{
+    position: absolute;
+    left: 33%;
+    top: 57%;
+    z-index: 1;
+}
+.s3{
+    position: absolute;
+    left: 53%;
+    top: 37%;
+    z-index: 0;
+}
+.s4{
+    position: absolute;
+    top: 37%;
+    left: 85%;
+}
+.s5{
+    position: absolute;
+    top: 78%;
+    left: 35%;
+}
+
+/* container-2 starts  */
+
+.container-2{
+    background-color: antiquewhite;
+    padding: 100px;
+    position: relative;
+    z-index: 1;
+}
+.para-5{
+    text-align: center;
+    padding: 30px;
+}
+.para-5 > p{
+    font-size: 29px;
+    line-height: 40px;
+    color: #eaa73b;
+    font-weight: 400;
+}
+.para-5 > h1{
+    font-size: 50px;
+    color: #12202f;
+    font-weight: 900;
+}
+.row{
+    display: flex;
+    margin-top: -73px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 145px;
+    padding: 100px;
+}
+.wrap{
+    color: #12202f;
+    border: none;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 459px;
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    gap: 25px;
+}
+.wrap > p{
+    margin-left: 28px;
+}
+.bu-3{
+    width: 149px;
+height: 45px;
+border-radius: 65px;
+background-color: #df581e;
+color: #ffffff;
+}
+
+/* container-3 starts  */
+
+.container-3{
+    text-align: center;
+    background-color: antiquewhite;
+    height: ;    
+}
+.para-6{
+
+}
